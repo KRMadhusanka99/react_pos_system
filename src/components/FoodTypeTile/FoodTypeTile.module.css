@@ -1,0 +1,38 @@
+.outer{
+    background: #B4FFF6;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 10px;
+    position: relative;
+    margin: 5rem;
+}
+.main_title{
+    font-family: Poppins;
+    font-weight: 700; 
+    /* 100 - ligh
+    200 - thin
+    300 - regular
+    400 - semi bold */ 
+    color: black;
+    font-size: 1.4rem;
+    display: block;
+}
+.title_holder{
+    position: absolute;
+    left: 5%;
+    top: 60%;
+    text-align: left;
+    line-height: 1;
+}
+.sub_title{
+    font-family: Poppins;
+    font-weight: 400; 
+    color: #4D4D4D;
+    font-size: 1rem;
+}
+.img{
+    width: 15%;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
