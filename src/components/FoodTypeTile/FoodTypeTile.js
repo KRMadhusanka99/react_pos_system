@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Style from './FoodTypeTile.module.css';
 import Breakfast from '../../assets/breakfast.png';
 
-const FoodTypeTile = () => {
+const FoodTypeTile = (props) => {
 
     const [mouseState, setMouseEnter] = useState(false);
 
@@ -19,12 +19,12 @@ const FoodTypeTile = () => {
             className={Style.outer} 
             onMouseEnter={mouseEnterHandler} 
             onMouseLeave={mouseLeaveHandler}
-            style={{backgroundColor: !mouseState ? "#B4FFF6":"red"}}    
+            style={{backgroundColor: !mouseState ? props.defColour:props.chanColour}}    
         >
             <img className={Style.img} src={Breakfast} alt="" />
             <div className={Style.title_holder}>
-                <span className={Style.main_title}>Breakfast</span>
-                <span className={Style.sub_title}>13 Items</span>
+                <span className={Style.main_title}>{props.heading}</span>
+                <span className={Style.sub_title}>{props.subheading} Items</span>
             </div>
         </div>
     );
