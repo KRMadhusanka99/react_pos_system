@@ -5,7 +5,7 @@ import Img from '../../../assets/search.png'
 const searchBar = () => {
     return ( 
         <div className={Style.outer}>
-            <img className={Style.Image} src={Img} />
+            <img className={Style.Image} src={Img} alt=""/>
             <input className={Style.Input} type="text" placeholder="search" />
         </div>
      );

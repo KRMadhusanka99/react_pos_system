@@ -2,6 +2,10 @@
     /* margin: 5rem; */
     display: flex;
     flex-direction: row;
-    width: 40%;
+    width: 35%;
     flex-wrap: wrap;
+    position: absolute;
+    left: 17%;
+    border-bottom: rgba(255, 255, 255, 0.5) solid 1px;
+    padding-bottom: 5px;
 }

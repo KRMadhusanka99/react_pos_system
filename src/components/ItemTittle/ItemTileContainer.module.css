@@ -1,0 +1,12 @@
+.outer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 17%;
+    width: 35%;
+    top: 30rem;
+    /* overflow: scroll; */
+    height: 20rem;
+    /* background-color: rgb(95, 113, 55); */
+ }
