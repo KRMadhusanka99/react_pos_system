@@ -1,0 +1,26 @@
+.outer{
+    position: relative;
+    width: fit-content;
+}
+.Image{
+    position:absolute;
+    width: 10%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 2%;
+}
+.Input{
+    background-color: #2d2d2d;
+    font-size: 1.2rem;
+    border: 0;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    font-family: "Poppins";
+    font-weight: 300;
+    color: white;
+    border-radius: 8px;
+}
+.Input::placeholder{
+    color: #adadad;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+}
